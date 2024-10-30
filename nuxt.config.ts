@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     },
     // baseURL: `http://localhost:${process.env.PORT || 3000}`
     // baseURL: 'https://refactored-journey-49xr557wvww25j7r-3000.app.github.dev'
-    baseURL: 'https://nh8d0kx2-3000.inc1.devtunnels.ms'
+    baseURL: process.env.BASE_URL
   },
   routeRules: {
     '/with-caching': {
